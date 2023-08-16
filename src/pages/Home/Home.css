@@ -1,0 +1,51 @@
+.container {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filter {
+  height: 100px;
+  width: 300px;
+}
+
+.cart {
+  height: 100px;
+  width: 100px;
+}
+
+.body {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.drawer-body {
+  height: 85vh;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.drawer-title {
+  text-align: center;
+}
+
+.drawer-footer {
+  height: 20px;
+  width: 100%;
+}
